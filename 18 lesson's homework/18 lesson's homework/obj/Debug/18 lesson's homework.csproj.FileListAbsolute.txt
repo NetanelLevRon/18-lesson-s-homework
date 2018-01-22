@@ -5,3 +5,10 @@ C:\Users\USER\Desktop\לימודים\שיעורים\18 lesson\18 lesson's homewo
 C:\Users\USER\Desktop\לימודים\שיעורים\18 lesson\18 lesson's homework\18 lesson's homework\obj\Debug\18 lesson's homework.csproj.CoreCompileInputs.cache
 C:\Users\USER\Desktop\לימודים\שיעורים\18 lesson\18 lesson's homework\18 lesson's homework\obj\Debug\TypeScriptHTMLApp1.dll
 C:\Users\USER\Desktop\לימודים\שיעורים\18 lesson\18 lesson's homework\18 lesson's homework\obj\Debug\TypeScriptHTMLApp1.pdb
+C:\Users\USER\Desktop\v\18 lesson's homework\18 lesson's homework\bin\TypeScriptHTMLApp1.dll.config
+C:\Users\USER\Desktop\v\18 lesson's homework\18 lesson's homework\bin\TypeScriptHTMLApp1.dll
+C:\Users\USER\Desktop\v\18 lesson's homework\18 lesson's homework\bin\TypeScriptHTMLApp1.pdb
+C:\Users\USER\Desktop\v\18 lesson's homework\18 lesson's homework\obj\Debug\18 lesson's homework.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\v\18 lesson's homework\18 lesson's homework\obj\Debug\18 lesson's homework.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\v\18 lesson's homework\18 lesson's homework\obj\Debug\TypeScriptHTMLApp1.dll
+C:\Users\USER\Desktop\v\18 lesson's homework\18 lesson's homework\obj\Debug\TypeScriptHTMLApp1.pdb

@@ -38,7 +38,7 @@ var FlightAttendant = (function (_super) {
         get: function () {
             return this._travelClass;
         },
-        /**  travelClass can get only: "first" or "business" or "economiy" if not one of those options, by default it will be "economiy class".*/
+        /**  travelClass. enter type of class- can be only: "first" or "business" or "economiy" if not one of those options, by default it will be "economiy class".*/
         set: function (classType) {
             if (classType == "first" || classType == "business" || classType == "economiy") {
                 this._travelClass = classType;
