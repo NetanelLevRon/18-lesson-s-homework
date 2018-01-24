@@ -1,0 +1,7 @@
+C:\Users\USER\Desktop\studies\lessons\19 lesson\19 lesson's homework\19 lesson's homework\bin\TypeScriptHTMLApp1.dll.config
+C:\Users\USER\Desktop\studies\lessons\19 lesson\19 lesson's homework\19 lesson's homework\bin\TypeScriptHTMLApp1.dll
+C:\Users\USER\Desktop\studies\lessons\19 lesson\19 lesson's homework\19 lesson's homework\bin\TypeScriptHTMLApp1.pdb
+C:\Users\USER\Desktop\studies\lessons\19 lesson\19 lesson's homework\19 lesson's homework\obj\Debug\19 lesson's homework.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\studies\lessons\19 lesson\19 lesson's homework\19 lesson's homework\obj\Debug\19 lesson's homework.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\studies\lessons\19 lesson\19 lesson's homework\19 lesson's homework\obj\Debug\TypeScriptHTMLApp1.dll
+C:\Users\USER\Desktop\studies\lessons\19 lesson\19 lesson's homework\19 lesson's homework\obj\Debug\TypeScriptHTMLApp1.pdb
