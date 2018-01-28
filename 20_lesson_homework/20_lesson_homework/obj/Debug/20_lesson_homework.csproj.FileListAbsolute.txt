@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\studies\lessons\20 lesson\20_lesson_homework\20_lesson_homework\bin\TypeScriptHTMLApp1.dll.config
+C:\Users\USER\Desktop\studies\lessons\20 lesson\20_lesson_homework\20_lesson_homework\bin\TypeScriptHTMLApp1.dll
+C:\Users\USER\Desktop\studies\lessons\20 lesson\20_lesson_homework\20_lesson_homework\bin\TypeScriptHTMLApp1.pdb
+C:\Users\USER\Desktop\studies\lessons\20 lesson\20_lesson_homework\20_lesson_homework\obj\Debug\20_lesson_homework.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\studies\lessons\20 lesson\20_lesson_homework\20_lesson_homework\obj\Debug\20_lesson_homework.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\studies\lessons\20 lesson\20_lesson_homework\20_lesson_homework\obj\Debug\TypeScriptHTMLApp1.dll
+C:\Users\USER\Desktop\studies\lessons\20 lesson\20_lesson_homework\20_lesson_homework\obj\Debug\TypeScriptHTMLApp1.pdb
+C:\Users\USER\Desktop\v\20_lesson_homework\20_lesson_homework\bin\TypeScriptHTMLApp1.dll.config
+C:\Users\USER\Desktop\v\20_lesson_homework\20_lesson_homework\bin\TypeScriptHTMLApp1.dll
+C:\Users\USER\Desktop\v\20_lesson_homework\20_lesson_homework\bin\TypeScriptHTMLApp1.pdb
+C:\Users\USER\Desktop\v\20_lesson_homework\20_lesson_homework\obj\Debug\20_lesson_homework.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\v\20_lesson_homework\20_lesson_homework\obj\Debug\20_lesson_homework.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\v\20_lesson_homework\20_lesson_homework\obj\Debug\TypeScriptHTMLApp1.dll
+C:\Users\USER\Desktop\v\20_lesson_homework\20_lesson_homework\obj\Debug\TypeScriptHTMLApp1.pdb
