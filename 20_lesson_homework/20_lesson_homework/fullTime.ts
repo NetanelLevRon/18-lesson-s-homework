@@ -38,7 +38,7 @@
     //////// func
 
     public toString() {
-        return super.toString() + `<br/>Time:&nbsp${this.hour}:${this.minutes}:${this.seconds}.`;     
+        return super.toString() + `<br/>Time:&nbsp${this.hour}:${this.minutes}:${this.seconds}`;     
     }
 
     ///////// ctor

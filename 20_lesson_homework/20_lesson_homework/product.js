@@ -39,7 +39,7 @@ var Product = (function () {
     });
     //////// func
     Product.prototype.toString = function () {
-        return "Product name:&nbsp" + this.productName + ".<br/>Price:&nbsp" + this.price + "&nbspShekels.<br/>Expiry date:" + this.expiryDate;
+        return "Product name:&nbsp" + this.productName + ".<br/>Price:&nbsp" + this.price + "&nbspShekels.<br/>Expiry date:" + this.expiryDate + ".";
     };
     return Product;
 }());

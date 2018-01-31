@@ -56,7 +56,7 @@ var FullTime = (function (_super) {
     });
     //////// func
     FullTime.prototype.toString = function () {
-        return _super.prototype.toString.call(this) + ("<br/>Time:&nbsp" + this.hour + ":" + this.minutes + ":" + this.seconds + ".");
+        return _super.prototype.toString.call(this) + ("<br/>Time:&nbsp" + this.hour + ":" + this.minutes + ":" + this.seconds);
     };
     return FullTime;
 }(BasicDate));
