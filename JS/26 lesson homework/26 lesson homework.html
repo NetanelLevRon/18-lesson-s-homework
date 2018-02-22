@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+
+        button, input ,label{
+            display: inline-block;
+            width: 250px;
+            height: 30px;
+            margin: 10px;
+            border-color: black;
+            border-width: 1px;
+            border-radius: 6px;                    
+            text-align:center;
+        }
+        body {
+            text-align: center;
+        }
+
+
+    </style>
+
+
+    <script>
+
+            function calculationFunc(param) {
+
+                let element1 = document.getElementById("input1").value;
+
+                let element2 = document.getElementById("input2").value;
+
+                let result = 0;
+
+                switch (param) {
+
+                    case 'x': result = element1 * element2; break;
+                    case '/': result = element1 / element2; break;
+                    case '+': result = (Number(element1) + Number(element2)); break;
+                    case '-': result = element1 - element2; break;
+
+                }
+                if (element1 == "" || element2 == "") {
+                    alert('please enter values');
+                }
+                else if (isNaN(result)) {
+                    alert('please enter numbers only!');
+                }
+                else {
+
+                    document.write(result + "");
+                }
+            }
+    </script>
+
+</head>
+<body>
+    <h2>calculator</h2>
+    <div>
+        <label>First number to calculate on</label><br />
+            <input id="input1" /><br />
+        
+        <label>Second number to calculate with</label><br />
+            <input id="input2" />
+       
+    </div>
+
+    <button onclick="calculationFunc('+')">+</button><br />
+    <button onclick="calculationFunc('-')">-</button><br />
+    <button onclick="calculationFunc('x')">x</button><br />
+    <button onclick="calculationFunc('/')">/</button><br />
+
+</body>
+</html>
