@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function changeBackCol() {
+            var colArr = document.getElementById("bgcol");
+
+            for (let i = 0; i < colArr.options.length; i++) {
+                if (colArr.options[i].selected) {
+                    if (colArr.options[i].innerText == "Please choose a background color") {
+                        alert("you must choose a color!")
+                    }
+
+                    else {
+                        if (document.getElementById("sec").value > 0) {
+                            document.getElementById("bodi").style = "background-color:" + colArr.options[i].innerText;
+
+                        }
+                    }
+                }
+            }
+
+
+            setTimeout(() => {
+                document.getElementById("bodi").style = "background-color:white";
+            }, setTime())
+        }
+
+
+
+        function setTime() {
+            var tim = document.getElementById("sec").value;
+            if (tim <= 0) {
+                alert("you must enter positive number of seconds!");
+            }
+            else {
+                tim *= 1000;
+                return tim;
+            }
+        }
+
+
+
+    </script>
+
+    <style>
+
+        select, input {
+            border-radius:6px;
+        }
+        form {
+            margin-left: 40%;
+            margin-right: 40%;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body id="bodi">
+    <form>
+        <select id="bgcol">
+            <option>Please choose a background color</option>
+            <option>blue</option>
+            <option>red</option>
+            <option>green</option>
+            <option>silver</option>
+        </select><br /><br />
+
+        <label>Please enter number of seconds that you want that the background color will remain</label><br />
+        <input id="sec" type="number" /><br /><br />
+
+        <input type="button" value="change background" onclick="changeBackCol()" />
+
+    </form>
+</body>
+</html>
