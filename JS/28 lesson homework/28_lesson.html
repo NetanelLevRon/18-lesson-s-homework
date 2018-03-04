@@ -10,7 +10,7 @@
 
             for (let i = 0; i < colArr.options.length; i++) {
                 if (colArr.options[i].selected) {
-                    if (colArr.options[i].innerText == "Please choose a background color") {
+                    if (!i) {
                         alert("you must choose a color!")
                     }
 
