@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Script1.js"></script>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+
+        <div id="form">
+            <h4>Enter name:</h4>
+            <p>
+                <input id="fullName" type="text" />
+            </p>
+            <h4>Enter age:</h4>
+            <p>
+                <input id="age" type="number" />
+            </p>
+            <h4>Enter birth date:</h4>
+            <p>
+                <input id="date" type="date" />
+            </p>
+            <h4>Choose favorite color:</h4>
+            <p>
+                <input id="colr" type="color" />
+            </p><br />
+            <p>
+                <input id="btn" type="button" value="save changes" onclick="saveChanges()" />
+            </p>
+
+
+
+        </div>
+
+        <div id="historyDive">
+            <h2>History</h2>
+            <ul id="history"></ul>
+            <div id="btnDive">
+                <button onclick="clearHistory()">clear history</button>
+                <button onclick="showAllHistory()">show all history</button>
+            </div>
+        </div>
+
+</body>
+</html>
