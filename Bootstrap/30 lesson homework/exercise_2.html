@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <style>
+        .row {
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: xx-large;
+        }
+
+        .row > div:nth-child(1) {
+            background-color: red;
+        }
+
+        .row > div:nth-child(2) {
+            background-color: green;
+        }
+
+        .row > div:nth-child(3) {
+            background-color: blue;
+        }
+
+        .row > div:nth-child(4) {
+            background-color: yellow;
+        }
+
+        .row > div:nth-child(5) {
+            background-color: aqua;
+        }
+
+        .row > div:nth-child(6) {
+            background-color: gray;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">a</div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">b</div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">c</div>
+            <div class="hidden-xs hidden-sm col-md-6 col-lg-4">d</div>
+            <div class="hidden-xs hidden-sm hidden-md col-lg-4">e</div>
+            <div class="hidden-xs hidden-sm hidden-md col-lg-4">f</div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
