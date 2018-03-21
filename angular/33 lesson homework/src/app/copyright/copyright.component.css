@@ -1,0 +1,10 @@
+div{
+    height: 50px;
+    line-height: 50%;
+    width:100%;
+    position: fixed;
+    bottom: 2px;
+    color: white;
+    background-color: black;
+
+}
