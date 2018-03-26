@@ -9,14 +9,19 @@ h1{
 
 table{
     background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    margin-left: 34%;
+    background: -webkit-linear-gradient(to right, #4a6580, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4a6580, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 50px;
     border-radius: 15px;
-    border-color: silver;
+    border:none;
+    width: 50%;
+    
+ 
 }
 td{
     border-radius: 5px;
     padding:10px;
+    font-weight: 500;
+    
+    
 }
