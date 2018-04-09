@@ -1,0 +1,20 @@
+
+  <h2>Current Pizza Order</h2>
+
+<table border="1">
+
+  <tr>
+    <td>pizza number</td>
+    <td>diameter</td>
+    <td>slices</td>
+    <td>toppings</td>
+    <td>price</td>
+  </tr>
+  <tr *ngFor='let p of pizzaArr; let i=index'>
+    <td>{{i+1}}</td>
+    <td>{{p.diameter}}</td>
+    <td>{{p.slices}}</td>
+    <td>{{p.toppings}}</td>
+    <td>{{p.price}}</td>
+  </tr>
+</table>

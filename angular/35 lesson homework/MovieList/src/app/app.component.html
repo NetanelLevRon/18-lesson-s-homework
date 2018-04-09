@@ -1,0 +1,27 @@
+<h1>movie list</h1>
+
+<div class="list-group">
+  
+  <button (click)="setSelectMovie('Coraline')" type="button" class="list-group-item">Coraline</button>
+  <button (click)="setSelectMovie('Finding Dory')" type="button" class="list-group-item">Finding Dory</button>
+  <button (click)="setSelectMovie('The Wailing')" type="button" class="list-group-item">The Wailing</button>
+  <button (click)="setSelectMovie('The Void')" type="button" class="list-group-item">The Void</button>
+  <button (click)="setSelectMovie('Tower')" type="button" class="list-group-item">Tower</button>
+</div>
+
+<div *ngIf="selectMovie">
+  <h3>selected movie: {{selectMovie.movie_name}}</h3>
+  <table border="2">
+    <tr>
+     <td>Country</td>
+     <td>Price</td>
+     <td>Date</td>
+    </tr>
+    <tr>
+        <td>USA</td>
+        <td>{{selectMovie.price}} $</td>
+        <td>{{selectMovie.movie_date}}</td>
+       </tr>
+  </table>
+</div>
+
