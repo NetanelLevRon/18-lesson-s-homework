@@ -1,0 +1,13 @@
+<div *ngIf="sendedMovie">
+    <h3>selected movie: {{sendedMovie.movie_name}}</h3>
+    <table border="3">
+      <tr>
+       <td>Price</td>
+       <td>Date</td>
+      </tr>
+      <tr>
+          <td>{{sendedMovie.price}} $</td>
+          <td>{{sendedMovie.movie_date}}</td>
+         </tr>
+    </table>
+  </div>

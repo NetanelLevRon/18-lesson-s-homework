@@ -1,0 +1,30 @@
+div{
+    text-align: center;
+    margin-top: 250px;
+    background-color: rgb(226, 223, 223);
+    height: 100%;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: 0px;
+}
+table{
+    margin: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: silver;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+h3{
+line-height: 75px; 
+font-weight: bold;
+}
+td{
+    width: 30%;
+    height: 50px;
+    padding: 7px;
+    border-width: 3px;
+}
