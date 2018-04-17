@@ -21,7 +21,7 @@ export class AppComponent {
     else {
 
       for(let i=0;i<this.vegList.allVegsArr.length;i++){
-        if(this.searchVeg==this.vegList.allVegsArr[i].charAt(0)){
+        if(this.searchVeg==this.vegList.allVegsArr[i].charAt(1)){
           this.outputVegsArr.push(this.vegList.allVegsArr[i]);
         }
       }

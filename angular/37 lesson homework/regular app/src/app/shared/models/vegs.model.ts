@@ -1,140 +1,25 @@
-export class VegList{
+export class VegList {
 
-    allVegsArr:string[]=new Array<string>();
+    allVegsArr: string[];
 
-    constructor(){
+     constructor() {
 
-        this.allVegsArr[0]= "artichoke";
-        this.allVegsArr[1]= "aubergine";
-        this.allVegsArr[2]= "amrud";
-        this.allVegsArr[3]= "asparagus";
-        this.allVegsArr[4]= "legumes";
-        this.allVegsArr[5]= "alfalfa sprouts";
-        this.allVegsArr[6]= "azuki beans";
-        this.allVegsArr[7]= "bean sprouts";
-        this.allVegsArr[8]= "black beans";
-        this.allVegsArr[9]= "black-eyed peas";
-        this.allVegsArr[10]= "borlotti bean";
-        this.allVegsArr[11]= "broad beans";
-        this.allVegsArr[12]= "chickpeas";
-        this.allVegsArr[13]= "green beans";
-        this.allVegsArr[14]= "kidney beans";
-        this.allVegsArr[15]= "lentils";
-        this.allVegsArr[16]= "lima beans";
-        this.allVegsArr[17]= "mung beans";
-        this.allVegsArr[18]= "navy beans";
-        this.allVegsArr[19]= "pinto beans";
-        this.allVegsArr[20]= "runner beans";
-        this.allVegsArr[21]= "split peas";
-        this.allVegsArr[22]= "soy beans";
-        this.allVegsArr[23]= "peas";
-        this.allVegsArr[24]= "mangetout";
-        this.allVegsArr[25]= "broccoflower";
-        this.allVegsArr[26]= "broccoli";
-        this.allVegsArr[27]= "brussels";
-        this.allVegsArr[28]= "cabbage";
-        this.allVegsArr[29]= "kohlrabi";
-        this.allVegsArr[30]= "cauliflower";
-        this.allVegsArr[31]= "celery";
-        this.allVegsArr[32]= "endive";
-        this.allVegsArr[33]= "fiddleheads";
-        this.allVegsArr[34]= "frisee";
-        this.allVegsArr[35]= "fennel";
-        this.allVegsArr[36]= "greens";
-        this.allVegsArr[37]= "beet greens";
-        this.allVegsArr[38]= "bok choy";
-        this.allVegsArr[39]= "chard";
-        this.allVegsArr[40]= "collard greens";
-        this.allVegsArr[41]= "kale";
-        this.allVegsArr[42]= "mustard greens";
-        this.allVegsArr[43]= "spinach";
-        this.allVegsArr[44]= "herbs";
-        this.allVegsArr[45]= "anise";
-        this.allVegsArr[46]= "basil";
-        this.allVegsArr[47]= "caraway";
-        this.allVegsArr[48]= "cilantro";
-        this.allVegsArr[49]= "coriander";
-        this.allVegsArr[50]= "chamomile";
-        this.allVegsArr[51]= "dill";
-        this.allVegsArr[52]= "fennel";
-        this.allVegsArr[53]= "lavender";
-        this.allVegsArr[54]= "lemon Grass";
-        this.allVegsArr[55]= "marjoram";
-        this.allVegsArr[56]= "oregano";
-        this.allVegsArr[57]= "parsley";
-        this.allVegsArr[58]= "rosemary";
-        this.allVegsArr[59]= "sage";
-        this.allVegsArr[60]= "thyme";
-        this.allVegsArr[61]= "lettuce";
-        this.allVegsArr[62]= "arugula";
-        this.allVegsArr[63]= "mushrooms";
-        this.allVegsArr[64]= "nettles";
-        this.allVegsArr[65]= "spinach";
-        this.allVegsArr[66]= "okra";
-        this.allVegsArr[67]= "onions";
-        this.allVegsArr[68]= "Chives";
-        this.allVegsArr[69]= "Garlic";
-        this.allVegsArr[70]= "Leek";
-        this.allVegsArr[71]= "onion";
-        this.allVegsArr[72]= "shallot";
-        this.allVegsArr[73]= "scallion";
-        this.allVegsArr[74]= "parsley";
-        this.allVegsArr[75]= "bell pepper";
-        this.allVegsArr[76]= "chili pepper";
-        this.allVegsArr[77]= "Jalapeño";
-        this.allVegsArr[78]= "Habanero";
-        this.allVegsArr[79]= "Paprika";
-        this.allVegsArr[80]= "Tabasco pepper";
-        this.allVegsArr[81]= "pepper";
-        this.allVegsArr[82]= "radicchio";
-        this.allVegsArr[83]= "rhubarb";
-        this.allVegsArr[84]= "root vegetables";
-        this.allVegsArr[85]= "beetroot";
-        this.allVegsArr[86]= "cattlefeed";
-        this.allVegsArr[87]= "carrot";
-        this.allVegsArr[88]= "celeriac";
-        this.allVegsArr[89]= "daikon";
-        this.allVegsArr[90]= "ginger";
-        this.allVegsArr[91]= "parsnip";
-        this.allVegsArr[92]= "rutabaga";
-        this.allVegsArr[93]= "turnip";
-        this.allVegsArr[94]= "radish";
-        this.allVegsArr[95]= "wasabi";
-        this.allVegsArr[96]= "horseradish";
-        this.allVegsArr[97]= "white radish";
-        this.allVegsArr[98]= "skirret";
-        this.allVegsArr[99]= "sweetcorn";
-        this.allVegsArr[100]= "topinambur";
-        this.allVegsArr[101]= "squashes";
-        this.allVegsArr[102]= "acorn squash";
-        this.allVegsArr[103]= "bitter melon";
-        this.allVegsArr[104]= "squash";
-        this.allVegsArr[105]= "banana squash";
-        this.allVegsArr[106]= "courgette";
-        this.allVegsArr[107]= "cucumber";
-        this.allVegsArr[108]= "delicata";
-        this.allVegsArr[109]= "gem squash";
-        this.allVegsArr[110]= "hubbard squash";
-        this.allVegsArr[111]= "marrow";
-        this.allVegsArr[112]= "patty pans";
-        this.allVegsArr[113]= "pumpkin";
-        this.allVegsArr[114]= "tat soi";
-        this.allVegsArr[115]= "tomato";
-        this.allVegsArr[116]= "tubers";
-        this.allVegsArr[117]= "jicama";
-        this.allVegsArr[118]= "artichoke";
-        this.allVegsArr[119]= "potato";
-        this.allVegsArr[120]= "quandong";
-        this.allVegsArr[121]= "sunchokes";
-        this.allVegsArr[122]= "sweet potato";
-        this.allVegsArr[123]= "taro";
-        this.allVegsArr[124]= "yam";
-        this.allVegsArr[125]= "water chestnut";
-        this.allVegsArr[126]= "watercress";
-        this.allVegsArr[127]= "zucchini";
-
-    }
-
+      this.allVegsArr=new Array<string>(" artichoke"," aubergine"," amrud"," asparagus"," legumes"," alfalfa sprouts"," azuki beans"," bean sprouts",
+            " black beans"," black - eyed peas"," borlotti bean"," broad beans"," chickpeas"," green beans"," kidney beans",
+            " lentils"," lima beans"," mung beans"," navy beans"," pinto beans"," runner beans"," split peas",
+            " soy beans"," peas"," mangetout"," broccoflower"," broccoli"," brussels"," cabbage"," kohlrabi",
+            " cauliflower"," celery"," endive"," fiddleheads"," frisee"," fennel"," greens"," beet greens"," bok choy",
+            " chard"," collard greens"," kale"," mustard greens"," spinach"," herbs"," anise"," basil"," caraway",
+            " cilantro"," coriander"," chamomile"," dill"," fennel"," lavender"," lemon Grass"," marjoram"," oregano",
+            " parsley"," rosemary"," sage"," thyme"," lettuce"," arugula"," mushrooms"," nettles"," spinach"," okra",
+            " onions"," Chives"," Garlic"," Leek"," onion"," shallot"," scallion"," parsley"," bell pepper"," chili pepper"," Jalapeño",
+            " Habanero"," Paprika"," Tabasco pepper"," pepper"," radicchio"," rhubarb"," root vegetables"," beetroot"," cattlefeed",
+            " carrot"," celeriac"," daikon"," ginger"," parsnip"," rutabaga"," turnip"," radish"," wasabi"," horseradish"," white radish",
+            " skirret"," sweetcorn"," topinambur"," squashes"," acorn squash"," bitter melon"," squash"," banana squash",
+            " courgette"," cucumber"," delicata"," gem squash"," hubbard squash"," marrow"," patty pans"," pumpkin",
+            " tat soi"," tomato"," tubers"," jicama"," artichoke"," potato"," quandong"," sunchokes"," sweet potato",
+            " taro"," yam"," water chestnut"," watercress"," zucchini"); 
+     }
 
 }
 
