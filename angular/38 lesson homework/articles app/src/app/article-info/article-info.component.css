@@ -1,0 +1,28 @@
+div{
+    text-align: center;
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+table{
+    text-align: center; 
+}
+
+tr{
+    border-color: black;
+    line-height: 35px;
+    
+}
+button{
+    min-width: 100px;
+    min-height: 75px;
+    max-width: 100px;
+    max-height: 75px;
+    margin-top: 0px;
+}
+td{
+    vertical-align: top;
+}

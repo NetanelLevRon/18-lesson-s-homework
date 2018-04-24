@@ -1,0 +1,12 @@
+div{
+    margin-top: 25px;
+    text-align: left;
+    height: 250px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+span{
+    font-weight: bold;
+}

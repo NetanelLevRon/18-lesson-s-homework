@@ -1,0 +1,10 @@
+<div *ngIf="singleArticle">
+  <div >
+      <p><span>type:</span> {{singleArticle.article_type}}</p>
+      <p><span>authors:</span></p>
+      <ul>
+        <p *ngFor="let i of singleArticle.author_display"><li>{{i}}</li></p>
+      </ul>
+      <p><span>score:</span> {{singleArticle.score}}</p>
+  </div>
+</div>
