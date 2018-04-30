@@ -1,0 +1,9 @@
+<h1>Welcome to Ajax Request</h1>
+
+<div *ngFor="let x of allPersons.data">
+<p><span>first name: </span>{{x.first_name}}</p>
+<p><span>last name: </span>{{x.last_name}}</p>
+<p><span>full name: </span>{{x.first_name}} {{x.last_name}}</p>
+<img src="{{x.avatar}}"/>
+
+</div>
