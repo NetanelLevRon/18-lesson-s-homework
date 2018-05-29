@@ -15,7 +15,7 @@ namespace Screensaver
         public double SideLength
         {
             get { return sideLength; }
-            set { sideLength = (value >= 0) ? value : throw new ArgumentException("The side length must be ositive!"); }
+            set { sideLength = (value >= 0) ? value : throw new ArgumentException("The side length must be positive!"); }
         }
         #endregion
 

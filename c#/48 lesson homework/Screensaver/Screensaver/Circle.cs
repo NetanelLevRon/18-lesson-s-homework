@@ -10,7 +10,7 @@ namespace Screensaver
         public double Radius
         {
             get { return radius; }
-            set { radius = (value >= 0) ? value : throw new ArgumentException("The radiuse must be ositive!"); }
+            set { radius = (value >= 0) ? value : throw new ArgumentException("The radiuse must be positive!"); }
         }
         #endregion
 
