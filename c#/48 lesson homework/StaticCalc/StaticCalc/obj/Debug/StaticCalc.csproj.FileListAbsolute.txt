@@ -1,0 +1,7 @@
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\StaticCalc\StaticCalc\bin\Debug\StaticCalc.exe.config
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\StaticCalc\StaticCalc\bin\Debug\StaticCalc.exe
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\StaticCalc\StaticCalc\bin\Debug\StaticCalc.pdb
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\StaticCalc\StaticCalc\obj\Debug\StaticCalc.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\StaticCalc\StaticCalc\obj\Debug\StaticCalc.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\StaticCalc\StaticCalc\obj\Debug\StaticCalc.exe
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\StaticCalc\StaticCalc\obj\Debug\StaticCalc.pdb

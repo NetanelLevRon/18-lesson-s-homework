@@ -1,0 +1,7 @@
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\Screensaver\Screensaver\obj\Debug\Screensaver.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\Screensaver\Screensaver\obj\Debug\Screensaver.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\Screensaver\Screensaver\bin\Debug\Screensaver.exe.config
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\Screensaver\Screensaver\bin\Debug\Screensaver.exe
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\Screensaver\Screensaver\bin\Debug\Screensaver.pdb
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\Screensaver\Screensaver\obj\Debug\Screensaver.exe
+C:\Users\USER\Desktop\studies\lessons\c#\48 lesson homework\Screensaver\Screensaver\obj\Debug\Screensaver.pdb
