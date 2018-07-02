@@ -7,8 +7,9 @@ namespace UIL
     {
         static void Main(string[] args)
         {
-            ProductLogic product = new ProductLogic();
-            Console.WriteLine(product.SearchProductByEvent());
+            ProductLogic.print += (p => Console.WriteLine(p));
+
+            ProductLogic.SearchProductByEvent();
         }
     }
 }

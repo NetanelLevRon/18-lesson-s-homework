@@ -1,2 +1,16 @@
 C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\UIL\obj\Debug\UIL.csprojAssemblyReference.cache
 C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\UIL\obj\Debug\UIL.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\bin\Debug\UIL.exe.config
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\bin\Debug\UIL.exe
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\bin\Debug\UIL.pdb
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\bin\Debug\BLL.dll
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\bin\Debug\BOL.dll
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\bin\Debug\DAL.dll
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\bin\Debug\BLL.pdb
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\bin\Debug\BOL.pdb
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\bin\Debug\DAL.pdb
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\obj\Debug\UIL.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\obj\Debug\UIL.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\obj\Debug\UIL.csproj.CopyComplete
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\obj\Debug\UIL.exe
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\UIL\obj\Debug\UIL.pdb

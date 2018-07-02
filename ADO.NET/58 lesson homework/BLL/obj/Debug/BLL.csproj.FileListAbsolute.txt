@@ -1,2 +1,13 @@
 C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
 C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\bin\Debug\BLL.dll
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\bin\Debug\BLL.pdb
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\bin\Debug\BOL.dll
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\bin\Debug\DAL.dll
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\bin\Debug\BOL.pdb
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\bin\Debug\DAL.pdb
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\obj\Debug\BLL.dll
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\58 lesson homework\UIL\BLL\obj\Debug\BLL.pdb

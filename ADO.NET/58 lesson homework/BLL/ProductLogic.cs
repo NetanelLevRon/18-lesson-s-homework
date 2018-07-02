@@ -8,30 +8,28 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
+
+    public delegate void ProductSearchHandler(string item);
+
     public class ProductLogic : Prodact
     {
-        public event Action<Prodact> ProductSearchHandler;
+        public static event ProductSearchHandler print;
 
 
-        public Action<Prodact> SearchProductByEvent()
+        public static void SearchProductByEvent()
         {
             List<Prodact> searchProd = DbManager.GetDbResults();
-            List<Category> searchCat = DbManager.GetDbResultsCat();
-
+         
             foreach (Prodact item in searchProd)
             {
-                foreach (Category cat in searchCat)
+                if (item.ProductName.Count() == item.CategoryName.Count())
                 {
-                    if (item.ProductName.Count() == cat.CategortName.Count())
-                    {
-                        ProductSearchHandler?.Invoke(item);
-                        ProductSearchHandler += (p => p.ToString());
-                        return ProductSearchHandler;
-                    }
+                    print?.Invoke(item.ProductName);
                 }
-
+                
+                
             }
-            return ProductSearchHandler;
+            
         }
 
     }

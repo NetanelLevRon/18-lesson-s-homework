@@ -27,23 +27,24 @@ namespace DAL
                 {
                     sql.Open();
 
-                    SqlCommand query = new SqlCommand("SELECT * FROM Prodacts", sql);
+                    SqlCommand query = new SqlCommand("SELECT * FROM Products AS P JOIN Categories AS C ON P.CategoryID = C.CategoryID", sql);
                     SqlDataReader reader = query.ExecuteReader();
 
                     while (reader.Read())
                     {
                         resList.Add(new Prodact
                         {
-                            ProductIdD = (int)reader[0],
+                            ProductIdD = (int) reader[0],
                             ProductName = reader[1].ToString(),
-                            SupplierID = (int)reader[2],
-                            CutegoryID = (int)reader[3],
+                            SupplierID = (Nullable<int>)Convert.ToInt16(reader[2]),
+                            CutegoryID = (Nullable<int>)Convert.ToInt16(reader[3]),
                             QuantityPerUnit = reader[4].ToString(),
-                            UnitPrice = (decimal)reader[5],
-                            UnitsInStock = (int)reader[6],
-                            UnitsOnOrder = (int)reader[7],
-                            ReorderLevel = (int)reader[8],
-                            Discontinued = (bool)reader[9]
+                            UnitPrice = (Nullable<decimal>)Convert.ToInt16(reader[5]),
+                            UnitsInStock = (Nullable<int>)Convert.ToInt16(reader[6]),
+                            UnitsOnOrder = (Nullable<int>)Convert.ToInt16(reader[7]),
+                            ReorderLevel = (Nullable<int>)Convert.ToInt16(reader[8]),
+                            Discontinued = (Nullable<bool>)Convert.ToBoolean(reader[9]),
+                            CategoryName = reader[11].ToString()
 
                         });
                     }
@@ -62,34 +63,34 @@ namespace DAL
 
 
 
-        public static List<Category> GetDbResultsCat()
-        {
-            List<Category> resListCat = new List<Category>();
+        //public static List<Category> GetDbResultsCat()
+        //{
+        //    List<Category> resListCat = new List<Category>();
 
-            try
-            {
-                using (SqlConnection sql = new SqlConnection(GetSqlConnection()))
-                {
-                    SqlCommand query = new SqlCommand("SELECT CategoryName FROM Categories", sql);
-                    SqlDataReader reader = query.ExecuteReader();
+        //    try
+        //    {
+        //        using (SqlConnection sql = new SqlConnection(GetSqlConnection()))
+        //        {
+        //            SqlCommand query = new SqlCommand("SELECT CategoryName FROM Categories", sql);
+        //            SqlDataReader reader = query.ExecuteReader();
 
-                    while (reader.Read())
-                    {
-                        resListCat.Add(new Category
-                        {
-                            CategortName = reader[0].ToString()
-                        });
-                    }
-                }
-            }
+        //            while (reader.Read())
+        //            {
+        //                resListCat.Add(new Category
+        //                {
+        //                    CategortName = reader[0].ToString()
+        //                });
+        //            }
+        //        }
+        //    }
 
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.Message);
+        //    }
 
-            return resListCat;
-        }
+        //    return resListCat;
+        //}
 
     }
 }
