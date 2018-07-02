@@ -1,0 +1,6 @@
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\BOL\bin\Debug\BOL.dll
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\BOL\bin\Debug\BOL.pdb
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\BOL\obj\Debug\BOL.dll
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\BOL\obj\Debug\BOL.pdb

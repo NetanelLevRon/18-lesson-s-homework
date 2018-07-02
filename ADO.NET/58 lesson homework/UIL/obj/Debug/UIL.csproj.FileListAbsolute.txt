@@ -1,0 +1,2 @@
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\UIL\obj\Debug\UIL.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\studies\lessons\ADO.NET\59 lesson homework\UIL\UIL\obj\Debug\UIL.csproj.CoreCompileInputs.cache
